@@ -71,10 +71,14 @@ To create a comprehensive, beginner-friendly guide for setting up a Virtual Priv
 
 ---
 
-## 6. Architect's Questions
+## 6. Architectural Decisions
 
-*This section is for tracking open questions for our next session.*
+*This section records the initial architectural decisions for the guide's content.*
 
-1.  What specific types of projects do you plan to deploy (e.g., Node.js, Python/Django, static HTML, etc.)? This will help in creating relevant Docker examples.
-2.  Regarding maintenance, what are your biggest concerns? (e.g., applying security patches, managing backups, monitoring for downtime?)
-3.  Do you plan to host any other services besides websites, such as a database or a code repository?
+1.  **Deployment Examples:** The guide will provide Docker deployment examples for two common project types:
+    *   A simple **static HTML website**.
+    *   A basic **Node.js (Express)** application.
+2.  **Maintenance Focus:** The maintenance chapter will prioritize and provide instructions for:
+    *   Setting up **automated security patches** for the system.
+    *   Implementing a simple, free service for **downtime monitoring**.
+3.  **Service Scope:** The guide will focus exclusively on hosting web applications. It will not cover hosting other services like databases or code repositories to maintain a clear scope.
